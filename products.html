@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Shop Groceries</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body class="bg-theme">
+
+        <!-- Navbar -->
+
+        <nav class="navbar">
+
+            <div class="left">
+                <h1>GROCIFY</h1>
+                <a href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="btn btn-info dropdown-toggle" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Categories
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">One-time
+                                Purchase</a></li>
+                        <li><a class="dropdown-item" href="#">Daily
+                                delivery</a></li>
+                        <li><a class="dropdown-item" href="#">Weekly
+                                pack</a></li>
+                        <li><a class="dropdown-item" href="#">Monthly
+                                pack</a></li>
+                    </ul>
+                </div>
+                <a href="#">Offers</a>
+            </div>
+
+            <div class="center">
+                <input type="search" placeholder="Search Groceries...">
+            </div>
+
+            <div class="right">
+                <button class="btn btn-outline-primary">Wishlist</button>
+                <a href="cart.html"><button class="btn btn-outline-primary">Cart
+                    </button></a>
+                <a href="login.html"><button class="btn btn-primary">Login /
+                        Signup</button></a>
+            </div>
+        </nav>
+
+        <div class="container mt-4">
+
+            <h2 class="fw-bold mb-4">
+                Shop Groceries
+            </h2>
+
+            <div class="row g-3">
+
+                <!-- Product 1 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+
+                    <div class="card product-card h-100">
+
+                        <span class="badge bg-danger offer">
+                            10% OFF
+                        </span>
+
+                        <img src="apple.jpg"
+                            class="card-img-top p-2">
+
+                        <div class="card-body p-2">
+
+                            <h6>Apple</h6>
+
+                            <small class="text-success">
+                                ★★★★★
+                            </small>
+
+                            <p class="price">
+                                ₹180/kg
+                            </p>
+
+                            <button class="btn btn-primary btn-sm w-100">
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 2 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+
+                    <div class="card product-card h-100">
+
+                        <img src="banana.jpg"
+                            class="card-img-top p-2">
+
+                        <div class="card-body p-2">
+
+                            <h6>Banana</h6>
+
+                            <small class="text-success">
+                                ★★★★☆
+                            </small>
+
+                            <p class="price">
+                                ₹60
+                            </p>
+
+                            <button class="btn btn-primary btn-sm w-100">
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 3 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+
+                    <div class="card product-card h-100">
+
+                        <img src="tomato.jpg"
+                            class="card-img-top p-2">
+
+                        <div class="card-body p-2">
+
+                            <h6>Tomato</h6>
+
+                            <small class="text-success">
+                                ★★★★★
+                            </small>
+
+                            <p class="price">
+                                ₹35/kg
+                            </p>
+
+                            <button class="btn btn-primary btn-sm w-100">
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 4 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+
+                    <div class="card product-card h-100">
+
+                        <img src="onion.jpg"
+                            class="card-img-top p-2">
+
+                        <div class="card-body p-2">
+
+                            <h6>Onion</h6>
+
+                            <small class="text-success">
+                                ★★★★☆
+                            </small>
+
+                            <p class="price">
+                                ₹40/kg
+                            </p>
+
+                            <button class="btn btn-primary btn-sm w-100">
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 5 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+
+                    <div class="card product-card h-100">
+
+                        <img src="potato.jpg"
+                            class="card-img-top p-2">
+
+                        <div class="card-body p-2">
+
+                            <h6>Potato</h6>
+
+                            <small class="text-success">
+                                ★★★★★
+                            </small>
+
+                            <p class="price">
+                                ₹28/kg
+                            </p>
+
+                            <button class="btn btn-primary btn-sm w-100">
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 6 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+
+                    <div class="card product-card h-100">
+
+                        <img src="carrot.jpg"
+                            class="card-img-top p-2">
+
+                        <div class="card-body p-2">
+
+                            <h6>Carrot</h6>
+
+                            <small class="text-success">
+                                ★★★★★
+                            </small>
+
+                            <p class="price">
+                                ₹70/kg
+                            </p>
+
+                            <button class="btn btn-primary btn-sm w-100">
+                                Add
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Product 7 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="milk.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Milk</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹34</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 8 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="curd.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Curd</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹42</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 9 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="rice.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Rice</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹78/kg</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 10 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="oil.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Oil</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹165</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 11 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="bread.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Bread</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹40</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 12 -->
+
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="egg.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Egg</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹72</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 13 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="butter.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Butter</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹65</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 14 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="cheese.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Cheese</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹120</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 15 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="paneer.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Paneer</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹95</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 16 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="bread.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Bread</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹45</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 17 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="rice.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Basmati Rice</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹145/kg</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 18 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="wheat flour.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Wheat Flour</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹58</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 19 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="sugar.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Sugar</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹52</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 20 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="salt.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Salt</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹25</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 21 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="oil.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Sunflower Oil</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹180</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 22 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="biscuit.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Biscuits</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹35</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 23 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="chips.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Potato Chips</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹20</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 24 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="juice.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Orange Juice</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹99</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 25 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="tea.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Tea Powder</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹140</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 26 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="coffee.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Coffee</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹220</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 27 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="noodles.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Noodles</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹55</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 28 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="pasta.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Pasta</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹80</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 29 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="chocolate.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Chocolate</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹99</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 30 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="cake.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Cake</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹350</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 31 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="icecream.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Ice Cream</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹180</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 32 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="softdrink.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Soft Drink</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹45</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 33 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="oats.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Oats</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹160</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 34 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="cornflakes.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Corn Flakes</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹195</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 35 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="honey.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Honey</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹280</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 36 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="jam.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Mixed Fruit Jam</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹145</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 37 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="peanutbutter.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Peanut Butter</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹299</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 38 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="detergent.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Detergent</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹210</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 39 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="soap.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Bath Soap</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹45</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 40 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="shampoo.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Shampoo</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹180</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 41 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="toothpaste.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Toothpaste</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹110</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 42 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="handwash.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Hand Wash</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹99</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 43 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="tissue.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Tissue Paper</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹85</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 44 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="water.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Water Bottle</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹20</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 45 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="frozenpeas.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Frozen Peas</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹130</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 46 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="fries.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Frozen Fries</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹150</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 47 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="cookies.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Cookies</h6>
+                            <small class="text-success">★★★★☆</small>
+                            <p class="price">₹75</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 48 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="popcorn.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Popcorn</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹65</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 49 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="dryfruits.jpg"
+                            class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Dry Fruits</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹450</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 50 -->
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+                    <div class="card product-card h-100">
+                        <img src="almonds.jpg" class="card-img-top p-2">
+                        <div class="card-body p-2">
+                            <h6>Almonds</h6>
+                            <small class="text-success">★★★★★</small>
+                            <p class="price">₹550</p>
+                            <button
+                                class="btn btn-primary btn-sm w-100">Add</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
